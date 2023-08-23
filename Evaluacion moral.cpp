@@ -1,8 +1,8 @@
 
 #include <iostream>
-class Prices {
+class PricesOperation {
 
-	getAveragePrice(ProductsPrices) {
+	void getAveragePrice(int ProductsPrices) {
 
 	}
 
@@ -13,11 +13,11 @@ class Prices {
 int main()
 {
 	int ProductsPrices[50];
-	for (int i = 0; int i < 50; int i++)
+	for (int i = 0; i < 50; i++)
 	{
-		ProductsPrices[] = rand() % 50;
+		ProductsPrices[i] = rand() % 50;
 	};
-	Prices 
-		getAveragePrice(ProductsPrices);
+	PricesOperation();
+	PricesOperation::getAveragePrice(ProductsPrices);
 }
 
